@@ -67,6 +67,3 @@ Abrí en tu navegador: `http://localhost:3000` y escribí acciones. Si el GM req
 ## Problemas comunes
 - Errores de embeddings: comprobar `GEMINI_API_KEY` y versión del SDK.
 - Pinecone: confirmar que el índice `manual-rpg` existe y la dimensión coincide con el modelo de embeddings.
-
----
-Si querés, agrego un script `start` en `package.json` y mejoro la extracción del JSON de tirada en `server.js`.

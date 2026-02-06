@@ -1,0 +1,5 @@
+const fs = require('fs');
+const manualDeReglas = fs.readFileSync('reglas.txt', 'utf8');
+
+// Luego en el systemInstruction:
+// systemInstruction: `Sos un GM. Usá estas reglas: ${manualDeReglas}`

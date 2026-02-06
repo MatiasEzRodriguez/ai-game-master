@@ -1,0 +1,6 @@
+body { background: #1a1a1a; color: #e0e0e0; font-family: 'Serif', sans-serif; }
+#game-container { max-width: 600px; margin: 50px auto; border: 2px solid #444; padding: 20px; }
+#chat-box { height: 400px; overflow-y: auto; border-bottom: 1px solid #444; margin-bottom: 10px; }
+#controls { display: flex; }
+#user-input { flex-grow: 1; background: #333; color: white; border: none; padding: 10px; }
+button { background: #600; color: white; border: none; padding: 10px 20px; cursor: pointer; }
